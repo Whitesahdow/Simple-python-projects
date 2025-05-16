@@ -7,6 +7,6 @@ user_input = input("Please enter a text so we can read it: ")
 if user_input.strip().isdigit():
     engine.say("You did not enter a proper sentence or string.")
 else:
-    engine.say(user_input)
+    engine.say(user_input) 
 
 engine.runAndWait()
