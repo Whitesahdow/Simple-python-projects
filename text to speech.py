@@ -8,5 +8,6 @@ if user_input.strip().isdigit():
     engine.say("You did not enter a proper sentence or string.")
 else:
     engine.say(user_input )  
-
+# main program loop
+# Wait for the speech to finish
 engine.runAndWait()
